@@ -36,7 +36,7 @@ public class ReportService {
             document.add(new Paragraph("-----------------------------"));
         }
         document.close();
+
         return byteArrayOutputStream.toByteArray();
     }
-
 }
